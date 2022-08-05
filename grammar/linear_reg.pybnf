@@ -1,0 +1,7 @@
+<s> ::= <expr>
+<expr> ::= <expr><op><expr> | <sub-expr>
+<sub-expr> ::= <var>
+
+<op> ::= + | - | *
+<var> ::= x | <constant>
+<constant> ::= 0 | 1 | 2 | 3
